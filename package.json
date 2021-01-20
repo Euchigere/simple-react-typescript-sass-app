@@ -1,20 +1,13 @@
 {
-  "name": "@tardisone/cortex-homepage-react-component",
-  "version": "0.1.0",
-  "description": "Cortex Homepage React Component",
+  "name": "simple-react-app",
+  "version": "1.0.0",
+  "description": "Simple React App with typescript and sass",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/tardisone/Cortex-Homepage-React-Component.git"
   },
   "keywords": [
     "nodejs"
