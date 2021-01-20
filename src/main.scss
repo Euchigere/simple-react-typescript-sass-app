@@ -1,0 +1,56 @@
+@import "./default-styles";
+
+// General
+body {
+  font-family: sans-serif;
+}
+
+// Article Styles
+.article-container {
+  margin-top: 25px;
+  padding: 0 10%;
+}
+
+.article-container .title {
+  font-size: 3.8rem;
+}
+
+.article-container .sub-title {
+  font-size: 1.8rem;
+  color: $color-gray;
+}
+
+.article-container .image-container img {
+  max-width: 500px;
+  min-height: 207px;
+}
+
+.article-container .body {
+  margin-top: 25px;
+}
+
+.tags-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.tags-container .tag {
+  background: $color-cian;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  color: $color-white;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+// Header
+header {
+  background: black;
+  color: $color-cian;
+  text-align: left;
+  padding: 25px 50px;
+  font-weight: 800;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
